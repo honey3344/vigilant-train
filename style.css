@@ -1,0 +1,67 @@
+.name {
+    background-color: rgb(226, 192, 192);
+}
+
+
+/* #submit {
+    margin-left: 15%;
+} */
+
+#mainsubjectbox {
+    margin-left: 37%;
+}
+
+#mainsuboutput {
+    background-color: salmon;
+}
+
+.studentsname {
+    background-color: salmon;
+}
+
+.honey {
+    background-color: salmon;
+}
+
+.studentans {
+    margin-top: 50px;
+    background-color: salmon;
+}
+
+.top {
+    /* background-color: red; */
+    margin: auto;
+    width: 90%;
+    display: flex;
+    justify-content: space-between
+}
+
+#top {
+    margin: auto;
+    width: 98%;
+    display: flex;
+    justify-content: space-between
+}
+
+.topp {
+    margin: auto;
+    width: 90%;
+    justify-content: space-between
+}
+
+.top1 {
+    /* background-color: red; */
+    margin: auto;
+    width: 88%;
+    display: flex;
+    justify-content: space-between
+}
+
+.studentans {
+    justify-content: space-between;
+    /* background-color: red; */
+}
+
+#fsettwo {
+    margin-top: 50px;
+}

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Task to add student and there average</title>
+</head>
+
+<body>
+    <h3 id="name">the task is here</h3>
+    <div class="honey">
+        <fieldset>
+            <legend>Add the subject here:</legend>
+
+            <div id="mainsubjectbox">
+
+                <label for="fname">subject name:</label>
+                <input type="text" id="fname" name="fname">
+                <input type="submit" value="Add subject" onclick="addit()">
+
+            </div>
+
+    </div>
+    </fieldset><br><br><br><br>
+
+
+
+    <div id="mainsuboutput">
+        <fieldset>
+            <div class="top">
+                <h3>Number</h3>
+                <h3>Subject Name</h3>
+                <h3>Percent</h3>
+            </div><br>
+
+            <div id="output">
+
+
+            </div>
+
+        </fieldset>
+    </div><br><br><br><br>
+
+    <div class="studentsname">
+        <fieldset>
+            <div class="top"> <input type="text" placeholder="Student name" id="studentname">
+                <select id="subject">
+                
+                </select>
+                <input type="number" placeholder="student marks" id="studentmarks">
+                <button onclick="gotolist()">add student</button>
+
+            </div>
+
+        </fieldset>
+
+    </div>
+
+
+    <div class="studentans">
+        <div class="top">
+
+            <h3>Number</h3>
+            <h3>Student Name</h3>
+            <h3>Subject Name</h3>
+            <h3>Marks</h3>
+        </div>
+        <div class="topp" id="studentlist">
+
+
+
+
+        </div>
+
+        <!-- <table>
+            <tr>
+                <th>No.</th>
+                <th>Name</th>
+                <th>Age</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Peter Parker</td>
+                <td>16</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Clark Kent</td>
+                <td>34</td>
+            </tr>
+        </table> -->
+    </div>
+
+
+
+
+
+</body>
+<script src="script.js"></script>
+
+</html>
